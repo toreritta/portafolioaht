@@ -1,0 +1,29 @@
+ul{
+	list-style-type: none;
+	width: 20%;
+	padding: 0;
+	margin: 15px;
+}
+
+li a {
+	display: block;
+	background-color: #edb5c5;
+	padding: 10px;
+	color: #C70039;
+	text-decoration: none;
+	font-family: verdana;
+}
+
+li a:hover{
+	background-color: #581845;
+	color: white;
+}
+
+li a.activo{
+	background-color: #900C3F;
+	color: #edb5c5;
+}
+
+*{	
+	font-family: verdana;
+}
