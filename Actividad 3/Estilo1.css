@@ -1,0 +1,44 @@
+body{
+	background-color: #e2caf1;
+}
+
+table{
+	width: 100%;
+	border: 3px solid #692894;
+	border-collapse: collapse;
+	font-family: Arial,sans-serif;
+	caption-side: top;
+	margin: auto;
+}
+
+th,td{
+	border: 2px solid #692894;
+}
+
+th{
+	padding: 15px;
+}
+
+td{
+	padding: 5px;
+	text-align: justify;
+}
+
+tr th{
+	background-color: black;
+	color: white;
+}
+
+table tr:nth-child(odd){
+	background-color: #b897c1;
+	}
+
+table tr:nth-child(even){
+	background-color: #a87db2;
+	}
+
+
+table tr:hover{
+	background-color: #410714;
+	color: white;
+}
