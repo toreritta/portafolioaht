@@ -1,0 +1,183 @@
+body{
+	text-align: center;
+	font-family: Verdana;
+	background-color: #FAF2DD;
+}
+
+h1,h2 {
+	color: #E79476;
+}
+
+table{
+	width: 60%;
+	margin: auto;
+}
+
+.contenedor1 {
+	text-align: center;
+	width: 10cm;
+	height: 2cm;
+
+	border: .2cm solid #AC6959;
+
+	padding: .1cm;
+	margin: auto;
+	color: white;
+	background-color: #EFD090;
+}
+
+.contenedor2{
+	text-align: center;
+	width: 100mm;
+	height: 20mm;
+
+	border: 2mm solid #AC6959;
+
+	padding: 1mm;
+	margin: auto;
+	color: white;
+	background-color: #EFD090;
+}
+
+.contenedor3{
+	text-align: center;
+	width: 5in;
+	height: 1in;
+
+	border: .1in solid #AC6959;
+
+	padding: .1in;
+	margin: auto;
+	color: white;
+	background-color: #EFD090;
+}
+
+.contenedor4{
+	text-align: center;
+	width: 400px;
+	height: 60px;
+
+	border: 8px solid #AC6959;
+
+	padding: 2px;
+	margin: auto;
+	color: white;
+	background-color: #EFD090;
+}
+
+.contenedor5{
+	text-align: center;
+	width: 400pt;
+	height: 50pt;
+
+	border: 8pt solid #AC6959;
+
+	padding: 1pt;
+	margin: auto;
+	color: white;
+	background-color: #EFD090;
+}
+
+.contenedor6{
+	text-align: center;
+	width: 20pc;
+	height: 4pc;
+
+	border: 1pc solid #AC6959;
+
+	padding: 1pc;
+	margin: auto;
+	color: white;
+	background-color: #EFD090;
+}
+
+.contenedor7{
+	text-align: center;
+	width: 60em;
+	height: 4em;
+
+	border: 1em solid #AC6959;
+
+	padding: 1em;
+	margin: auto;
+	color: white;
+	background-color: #EFD090;
+}
+
+.contenedor8{
+	text-align: center;
+	width: 80ex;
+	height: 8ex;
+
+	border: 1ex solid #AC6959;
+
+	padding: 1ex;
+	margin: auto;
+	color: white;
+	background-color: #EFD090;
+}
+
+.contenedor9{
+	text-align: center;
+	width: 20Rem;
+	height: 7Rem;
+
+	border: 1Rem solid #AC6959;
+
+	padding: 1Rem;
+	margin: auto;
+	color: white;
+	background-color: #EFD090;
+}
+
+.contenedor10{
+	text-align: center;
+	width: 30vw;
+	height: 20vw;
+
+	border: 1vw solid #AC6959;
+
+	padding: 2vw;
+	margin: auto;
+	color: white;
+	background-color: #EFD090;
+}
+
+.contenedor11{
+	text-align: center;
+	width: 40vh;
+	height: 15vh;
+
+	border: 1vh solid #AC6959;
+
+	padding: 1vh;
+	margin: auto;
+	color: white;
+	background-color: #EFD090;
+}
+
+.contenedor12{
+	text-align: center;
+	width: 40vmin;
+	height: 20vmin;
+
+	border: 1vmin solid #AC6959;
+
+	padding: 1vmin;
+	margin: auto;
+	color: white;
+	background-color: #EFD090;
+}
+
+.contenedor13{
+	text-align: center;
+	width: 50vmax;
+	height: 10vmax;
+
+	border: 1vmax solid #AC6959;
+
+	padding: 1vmax;
+	margin: auto;
+	color: white;
+	background-color: #EFD090;
+}
