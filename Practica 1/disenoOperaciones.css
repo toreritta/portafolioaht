@@ -1,0 +1,41 @@
+*{
+	font-family: verdana;
+}
+
+h1,h2,p{
+	text-align: center;
+	color: #005187;
+}
+
+form{
+	padding-left: 5vw;
+	padding-right: 5vw;
+	text-align: center;
+}
+
+label,input{
+	margin: 10px;
+}
+
+input[type=text] {
+	width: 35%;
+	border: 2px solid lightblue;
+	border-radius: 8px;
+	padding: 15px;
+	margin: 5px;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+label{
+	color: #4d82bc;
+}
+
+input[type=button]{
+	width: 20%;
+	height: 50px;
+	border: 5px solid #c4dafa;
+	background-color: #c4dafa;
+	font-weight: bold;
+	color: white;
+}
