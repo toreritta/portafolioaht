@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Formulario Con Javascript</title>
+
+	<link rel="icon" type="image/.png" href="icon.png">
+
+	<link rel="stylesheet" type="text/css" href="disenoForm.css">
+	<script type="text/javascript" src="form.js"></script>
+</head>
+<body>
+	<h1>Registro de Usuario</h1>
+	<form name="formulario">
+
+		<label>USUARIO:</label><br>
+		<input type="text" name="user" id="user" placeholder="Usuario"> <br>
+
+		<label>CONTRASEÑA:</label><br>
+		<input type="password" name="pass" id="pass"><br>
+
+		<label>CARRERA:</label><br>
+		<select name="carrera" id="carrera">
+			<option value="ITI">ITI</option>
+			<option value="ITEM">ITEM</option>
+		</select><br>
+
+		<label>GÉNERO: </label><br>
+		<input type="radio" name="genero" id="genero" value="Fem">Fem<br>
+		<input type="radio" name="genero" id="genero" value="Masc">Masc<br>
+
+		<input type="checkbox" name="privacidad" id="privacidad">
+		<label for="privacidad">Acepto los términos y condiciones de uso y privacidad</label><br>
+
+		<input type="button" name="envio" id="envio" value="Obtener datos" onclick="leer()">
+	</form>
+
+	<h2>SU INFORMACIÓN: </h2>
+	<div id="datos">
+			
+	</div>
+
+</body>
+</html>
