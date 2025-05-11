@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>FORMULARIO DE DIAGNOSTICO</title>
+
+	<link rel="icon" type="image/.jpg" href="icon.jpg">
+
+	<link rel="stylesheet" type="text/css" href="DisenoForms.css">
+
+	<!-- Librerias para el gráfico-->
+	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+	<!-- Librerias para el pdf-->
+	<script type="text/javascript" src="jspdf/js/jquery/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="jspdf/js/jquery/jquery-ui-1.8.17.custom.min.js"></script>
+	<script type="text/javascript" src="jspdf/jspdf.js"></script>
+
+	<script type="text/javascript" src="jspdf/jspdf.plugin.addimage.js"></script>
+
+	<script type="text/javascript" src="jspdf/jspdf.plugin.standard_fonts_metrics.js"></script>
+	<script type="text/javascript" src="jspdf/jspdf.plugin.split_text_to_size.js"></script>
+	<script type="text/javascript" src="jspdf/jspdf.plugin.from_html.js"></script>
+
+	<script type="text/javascript" src="ScriptForms.js"></script>
+
+</head>
+<body>
+
+	<h1>¿QUÉ TANTO SABES DE LA ODISEA?</h1>
+	<h3>Formulario de diagnóstico acerca de la Odisea</h3>
+
+	<div id="formu">
+	<form>
+		<label for="q1">1.- ¿Quién escribió la Odisea?</label><br>
+		<input type="radio" name="q1" id="q1" value="3">Homero<br>
+		<input type="radio" name="q1" id="q1" value="0">Troy Doherty<br>
+		<input type="radio" name="q1" id="q1" value="0">Platón<br>
+		<input type="radio" name="q1" id="q1" value="0">Jorge Rivera<br>
+		<!--Total Pts: 3-->
+
+		<br>
+
+		<label for="q2">2.- ¿Quiés es Odiseo?</label><br>
+		<input type="radio" name="q2" id="q2" value="2">Un mounstruo<br>
+		<input type="radio" name="q2" id="q2" value="3">Nadie<br>
+		<input type="radio" name="q2" id="q2" value="0">El Rey de Troya<br>
+		<input type="radio" name="q2" id="q2" value="3">El Rey de Ítaca<br>
+		<!--Total Pts: 6-->
+
+		<br>
+
+		<label for="q3">3.- Odiseo era alumno y protegido de algún dios,¿De qué Dios estamos hablando?</label><br>
+		<input type="radio" name="q3" id="q3" value="0">Jesús<br>
+		<input type="radio" name="q3" id="q3" value="0">Afrodita<br>
+		<input type="radio" name="q3" id="q3" value="3">Atena<br>
+		<input type="radio" name="q3" id="q3" value="0">Ares<br>
+		<!--Total Pts: 9-->
+
+		<br>
+
+		<label for="q4">4.- ¿Qué ser míticos se encontro Odiseo a lo largo de su viaje?</label><br>
+		<input type="radio" name="q4" id="q4" value="3">Eolo<br>
+		<input type="radio" name="q4" id="q4" value="0">Apolo<br>
+		<input type="radio" name="q4" id="q4" value="0">Efesto<br>
+		<input type="radio" name="q4" id="q4" value="0">Hera<br>
+		<!--Total Pts: 12-->
+
+		<br>
+
+		<label for="q5">5.- Odiseo era padre de una niña, ¿Cierto o falso?</label><br>
+		<input type="radio" name="q5" id="q5" value="3">Verdadero<br>
+		<input type="radio" name="q5" id="q5" value="0">Falso<br>
+		<!--Total Pts: 15-->
+
+		<br>
+
+		<label for="q6">6.- ¿Cuánto tiempo estuvo Odiseo alejado de su hogar?</label><br>
+		<input type="radio" name="q6" id="q6" value="0">19 años<br>
+		<input type="radio" name="q6" id="q6" value="3">20 años<br>
+		<input type="radio" name="q6" id="q6" value="0">21 años<br>
+		<input type="radio" name="q6" id="q6" value="0">22 años<br>
+		<!--Total Pts: 18-->
+
+		<br>
+
+		<label for="q7">7.- Tiresias le da una profecia a Odiseo, ¿Qué decia dicha profecia?</label><br>
+		<input type="radio" name="q7" id="q7" value="0">Odiseo va a tener un viaje de regreso a casa muy tranquilo.<br>
+		<input type="radio" name="q7" id="q7" value="0">Mientras Odiseo navegué solo de noche, todo saldrá bien.<br>
+		<input type="radio" name="q7" id="q7" value="4">Mientras Odiseo no toque al ganado de Helios podrá volver a casa.<br>
+		<input type="radio" name="q7" id="q7" value="0">Odiseo morirá en su viaje de regreso a casa.<br>
+		<!--Total Pts: 22-->
+
+		<br><br>
+
+		<label for="q8">8.- ¿Quién o quiénes esperaban a que Odiseo regresará a casa?</label><br>
+		<input type="radio" name="q8" id="q8" value="0">Euríloco<br>
+		<input type="radio" name="q8" id="q8" value="0">Antínoo<br>
+		<input type="radio" name="q8" id="q8" value="2">Su perro<br>
+		<input type="radio" name="q8" id="q8" value="0">Polites<br>
+		<!--Total Pts: 24-->
+		
+		<br>
+
+		<label for="q9">9.- ¿Cuál fue la prueba que les puso Penélope a sus pretendientes para decir al nuevo rey?</label><br>
+		<input type="radio" name="q9" id="q9" value="0">Les pidio cocinar un banquete para ella.<br>
+		<input type="radio" name="q9" id="q9" value="3">Tensar el arco de Odiseo y disparar una flecha a través de doce agujeros de unas hachas.<br>
+		<input type="radio" name="q9" id="q9" value="0">No les puso prueba, Telémaco tomo el trono.<br>
+		<input type="radio" name="q9" id="q9" value="0">La persona que pudiera talar un arból de olivo más rápido<br>
+		<!--Total Pts: 27-->
+		
+		<br>
+
+		<label for="q10">10.- ¿Comó Penélope logro reconocer a Ulises?</label><br>
+		<input type="radio" name="q10" id="q10" value="0">Por su método de combate<br>
+		<input type="radio" name="q10" id="q10" value="0">Su personalidad sin igual<br>
+		<input type="radio" name="q10" id="q10" value="3">Por la cama de olivo<br>
+		<!--Total Pts: 30-->
+
+		<br>
+
+		<input type="button" name="envio1" id="envio1" value="Obtener datos" onclick="leer()">
+		<input type="button" name="envio2" id="envio2" value="Generar PDF" onclick="generar()">
+
+	</form>
+
+	<div id="mostrar">
+		<h3 id="titulo"></h3>
+		<p name="resultado" id="resultado"></p>
+	</div>
+
+	<div id="columnchart_values" id="grafico"></div>
+
+	<iframe src="" frameborder="0" width="500" height="500"></iframe>
+
+	</div>
+
+</body>
+</html>
