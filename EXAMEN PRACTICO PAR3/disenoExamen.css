@@ -1,0 +1,58 @@
+*{
+	font-family: verdana;
+	background-color: #e8ddd8;
+}
+
+div {
+	margin: auto;
+	padding-top: 30vh;
+}
+
+h1,h2,p{
+	text-align: center;
+	color: #ac2727 ;
+}
+
+form{
+	padding-left: 5vw;
+	padding-right: 5vw;
+	text-align: center;
+}
+
+label,input{
+	margin: 10px;
+}
+
+input[type=text],select {
+	width: 35%;
+	border: 2px solid #7a252c ;
+	border-radius: 8px;
+	padding: 15px;
+	margin: 5px;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+label{
+	color: #e43e2e;
+}
+
+input[type=button]{
+	width: 20%;
+	height: 50px;
+	border: 5px solid #271017 ;
+	background-color: #271017;
+	font-weight: bold;
+	color: white;
+	text-wrap: wrap;
+}
+
+input[type=button]:hover{
+	width: 23%;
+	height: 55px;
+	border: 5px solid red  ;
+	background-color: red ;
+	font-weight: bold;
+	color: white;
+	text-wrap: wrap;
+}
